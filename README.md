@@ -1,2 +1,3 @@
 # D2Net
-D2Net for brain tumor segmentation with missing modalities
+This repository is the official implementation of D2Net.
+Codes will be released soon.
