@@ -1,0 +1,4 @@
+train_data_dir: ./data/BraTS_2018/MICCAI_BraTS2018_TrainingData_gz
+valid_data_dir: ./data/BraTS_2018/MICCAI_BraTS2018_ValidationData_gz 
+test_data_dir: ./data/BraTS_2018/MICCAI_BraTS2018_TestingData_gz
+ckpt_dir: ./ckpts
