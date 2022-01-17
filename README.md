@@ -4,10 +4,9 @@ This repository is the work of "D2-Net: Dual Disentanglement Network for Brain T
 
 
 ## Requirements
-* python 3.7
-* pytorch 1.6.0
-* nibabel
-* pickle 
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 
