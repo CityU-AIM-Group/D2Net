@@ -4,12 +4,12 @@ This repository is the work of "D2-Net: Dual Disentanglement Network for Brain T
 
 
 ## Requirements
-* python 3.6
-* pytorch 0.4 or 1.0
+* python 3.7
+* pytorch 1.6.0
 * nibabel
 * pickle 
 
-## Implementation
+## Usage
 
 Download the BraTS2018 dataset and change the path:
 
@@ -45,5 +45,4 @@ python train.py  --gpu=0 --net=DisenNet --batch_size=1 \
 
 
 ## Acknowledge
-1. [DMFNet](https://github.com/China-LiuXiaopeng/BraTS-DMFNet)
-2. [MFNet](https://github.com/cypw/PyTorch-MFNet)
+1. The implementation is based on the repo: [DMFNet](https://github.com/China-LiuXiaopeng/BraTS-DMFNet)
