@@ -27,13 +27,13 @@ python preprocess.py
 (Optional) Split the training set into k-fold for the **cross-validation** experiment.
 
 ```
-python tool/split.py
+python split.py
 ```
 
 ### Training
 
 ```python
-python train.sh
+python tool/train.sh
 ```
 
 
