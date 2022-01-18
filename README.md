@@ -36,9 +36,9 @@ sh tool/train.sh
 ```
 
 ### Inference
-'''
+```
 sh tool/inference.sh
-'''
+```
 
 
 
