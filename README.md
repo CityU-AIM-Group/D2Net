@@ -1,6 +1,6 @@
 # D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities
 
-This repository is the official **PyTorch** implementation of [D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities](https://ieeexplore.ieee.org/document/9775681) published on TMI 2022.
+This repository is the official **PyTorch** implementation of [D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities](https://ieeexplore.ieee.org/document/9775681) published on IEEE TMI 2022.
 
 ## Overview
 ![image](https://github.com/CityU-AIM-Group/D2Net/blob/main/figs/D2Net.png)
