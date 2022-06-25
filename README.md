@@ -1,18 +1,20 @@
 # D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities
 
-This repository is the work of "D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities" based on **pytorch** implementation. 
+This repository is the official **PyTorch** implementation of [D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities] (https://ieeexplore.ieee.org/document/9775681) published on TMI 2022.
 
 ## Overview
+![image](https://github.com/CityU-AIM-Group/D2Net/blob/main/figs/D2Net.png)
+
 We propose a Dual Disentanglement Network (D2-Net) for brain tumor segmentation with missing modalities, which consists of a modality disentanglement stage (MD-Stage) and a tumor-region disentanglement stage (TDStage). In the MD-Stage, a spatial-frequency joint modality contrastive learning scheme is designed to directly decouple the modality-specific information from MRI data. To decompose tumor-specific representations and extract discriminative holistic features, we propose an affinity-guided dense tumor-region knowledge distillation mechanism in the TD-Stage through aligning the features of a disentangled binary teacher network with a holistic student network. By explicitly discovering relations among modalities and tumor regions, our model can learn sufficient information for segmentation even if some modalities are missing.
 
 ## Requirements
 All experiments use the PyTorch library. We recommend installing the following package versions:
 
-&nbsp;&nbsp; python=3.7 
+* &nbsp;&nbsp; python=3.7 
 
-&nbsp;&nbsp; pytorch=1.6.0
+* &nbsp;&nbsp; pytorch=1.6.0
 
-&nbsp;&nbsp; torchvision=0.7.0
+* &nbsp;&nbsp; torchvision=0.7.0
 
 Dependency packages can be installed using following command:
 ```
@@ -55,6 +57,16 @@ sh tool/inference.sh
 ```
 The inference code will test all 15 cases with missing modalities together.
 
+## Citation
+```
+@article{yang2022d2,
+  title={D2-Net: Dual Disentanglement Network for Brain Tumor Segmentation with Missing Modalities},
+  author={Yang, Qiushi and Guo, Xiaoqing and Chen, Zhen and Woo, Peter YM and Yuan, Yixuan},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2022},
+  publisher={IEEE}
+}
+```
 
 ## Acknowledge
 1. The implementation is based on the repo: [DMFNet](https://github.com/China-LiuXiaopeng/BraTS-DMFNet)
