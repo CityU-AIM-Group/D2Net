@@ -68,5 +68,5 @@ The inference code will test all 15 cases with missing modalities together.
 }
 ```
 
-## Acknowledge
+## Acknowledgement
 1. The implementation is based on the repo: [DMFNet](https://github.com/China-LiuXiaopeng/BraTS-DMFNet)
